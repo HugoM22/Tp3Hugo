@@ -20,5 +20,8 @@
     <string name="desea_salir">¿Desea cerrar la aplicación?</string>
     <string name="si">Sí</string>
     <string name="no">No</string>
+    <string name="buscar">Buscar</string>
+    <string name="precio_fmt">Precio: $ %1$.2f</string>
+    <string name="codigo_fmt">Código: %1$s</string>
 
 </resources>

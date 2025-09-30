@@ -14,6 +14,10 @@
             android:icon="@drawable/icon_listar_productos"
             android:title="@string/listar"/>
         <item
+            android:id="@+id/nav_Buscar"
+            android:icon="@drawable/lupa"
+            android:title="@string/buscar"/>
+        <item
             android:id="@+id/nav_salir"
             android:icon="@drawable/icon_salir"
             android:title="@string/salir"/>

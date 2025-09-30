@@ -52,6 +52,16 @@ public class ProductoRepository {
             }
         }return false;
     }
+    public Producto buscarPorCodigo(String codigo){
+        if(codigo==null){
+            return null;
+        }
+        for(Producto p : productos){
+            if(codigo.equalsIgnoreCase(p.getCodigo()))
+                return p;
+        }
+        return null;
+    }
     public void agregar(Producto producto){
         if(producto == null){
             throw new IllegalArgumentException("Producto nulo.");
